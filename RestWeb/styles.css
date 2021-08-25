@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    padding-top: 125px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.top-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    background-color: white;
+}
+
+.top {
+    display: inline-flex;
+    text-align: center;
+}
+
+.logo {
+    margin: 7px 2px 0 5px;
+}
+
+.slogan {
+    position: relative;
+    left: 37em;
+    color: rgb(151, 0, 0);
+    font-style: italic;
+}
+
+.nav {
+    border: solid rgb(151, 0, 0) 2px;
+    background-color: rgb(151, 0, 0);
+    margin-bottom: 2em;
+}
+
+.current {
+    font-weight: bold;
+}
+
+nav ul {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0px;
+    position: relative;
+    text-align: end;
+    right: 5%;
+}
+
+.nav ul li {
+    display: inline-flex;
+    margin: 1em;
+}
+
+.nav ul li :hover {
+    font-weight: bold;
+    cursor: pointer;
+    font-style: italic;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.images {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.row ul li {
+    float: left;
+    width: 25%;
+}
+.row ul li :hover {
+    cursor: pointer;
+    color: rgb(167, 167, 167);
+}
+
+span {
+    font-size: 13px;
+    font-style: italic;
+    color: green;
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    margin-top: 55px;
+    border-top: 2px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+footer ul {
+    height: 20px;
+    position: relative;
+    left: 35%;
+    top: 40%;
+}
+
+footer ul li {
+    font-size: 10px;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+footer p {
+    position: relative;
+    top: 25%;
+    left: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer ul li a {
+    font-family: sans-serif;
+    position: relative;
+    top: 3px;
+}
+
+footer ul li :hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.copyright {
+    font-size: 9px;
+}
